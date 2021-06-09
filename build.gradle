@@ -69,8 +69,8 @@ task buildFrontend(type: Exec) {
   if (Os.isFamily(Os.FAMILY_WINDOWS)) {
     npm = 'npm.cmd'
   }
-  commandLine npm, 'install'
-  commandLine npm, 'run', 'build'
+//  commandLine npm, 'install'
+  commandLine npm, 'install', 'run', 'build'
 }
 
 task copyFrontend(type: Copy) {
