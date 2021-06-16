@@ -1,1 +1,1 @@
-3.5.5 -f build/Dockerfile build && whoami && pwd && la -la 
+3.5.5 -f build/Dockerfile build && whoami && pwd && ls -la 
